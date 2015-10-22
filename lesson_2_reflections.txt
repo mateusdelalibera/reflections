@@ -3,3 +3,18 @@ Git creates a folder .git. I need to do it so I can use all git functionality.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains only the files in the working directory that someone wants to add to the repository. There may be files in the working directory that are not in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can run git diff --staged to check before commiting.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When developing things that may impact the working version of the project.
+
+How do the diagrams help you visualize the branch structure?
+They help me see where the branches diverted and what commits are part of each of them.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a branch with the changes from both original branches. Because their history was separate, but the future is only one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pro is that the program does the job for us. The con is that sometimes it may not know what to do, or do things not in the way we expected.
